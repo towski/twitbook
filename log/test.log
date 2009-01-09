@@ -1,0 +1,631 @@
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:14:38) [GET]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:15:50) [GET]
+Redirected to http://www.facebook.com/login.php?api_key=95c28d60bb6f9ab45494cb75910f328b&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:16:15) [GET]
+Redirected to http://www.facebook.com/login.php?api_key=95c28d60bb6f9ab45494cb75910f328b&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:25:42) [GET]
+  Parameters: {"hey"=>"you"}
+Redirected to http://www.facebook.com/login.php?api_key=95c28d60bb6f9ab45494cb75910f328b&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?hey=you]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:26:07) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:26:30) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:27:00) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:31:36) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:32:56) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:33:11) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:33:21) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"417358,702720,1001170,1530839,3300204,3501584,6217936,9627766,9700907,22701786,33902768,38914148,67400422,135301144,157200364,500103523,500104930,500870819,502149612,502664898,502694695,502852293,502985816,503254091,504510130,504611551,505421674,509229747,511075237,512548373,512830487,517893818,517961878,518890403,523589362,523826914,525812984,531555098,535310228,539339781,541137089,549405288,552706617,564393355,564481279,567640762,568091401,570201702,571469972,573863097,574415114,575543081,578129427,578520568,582262836,582561201,586550659,591631962,592318318,596269347,596663221,597405464,599764847,602995438,606661367,609761260,610544224,620049417,626087078,628803637,632686250,641422291,646763898,649678032,649925863,653288975,654395451,659079771,661794253,665861872,668960554,672481514,675399151,678427115,685772348,686821151,687686894,688506532,689275123,695551670,710631572,710766439,712406081,715741469,718976395,719246649,722747311,725327717,725683968,725831016,727580320,734151780,734595181,737944528,748881410,752244947,763868412,768578853,776596978,789728437,873695441", "fb_sig_api_key"=>"b6c9c857ac543ca806f4d3187cd05e09", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:38:11) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_in_canvas"=>"1", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:38:58) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:39:12) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:39:31) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:39:49) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:40:11) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:40:29) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:40:39) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:41:02) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Redirected to http://www.facebook.com/login.php?api_key=95a71599e8293s66f1f0a6f4aeab3df7&v=1.0
+Filter chain halted as [:ensure_authenticated_to_facebook] rendered_or_redirected.
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:47:55) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+facebook.users.getInfo (0) SocketError: getaddrinfo: nodename nor servname provided, or not known: fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations, uids = 1111111
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 00:48:43) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+facebook.users.getInfo (0) SocketError: getaddrinfo: nodename nor servname provided, or not known: fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations, uids = 1111111
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:07:43) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:09:55) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:10:14) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+facebook.users.getInfo (0) SocketError: getaddrinfo: nodename nor servname provided, or not known: fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations, uids = 1111111
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:12:12) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+facebook.users.getInfo (0) SocketError: getaddrinfo: nodename nor servname provided, or not known: fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations, uids = 1111111
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:12:56) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:13:10) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:13:24) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+facebook.users.getInfo (0) SocketError: getaddrinfo: nodename nor servname provided, or not known: fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations, uids = 1111111
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (0.0ms)[0m   [0mMysql::Error: Table 'twitbook_test.statuses' doesn't exist: SHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.8ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:27:46) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:28:00) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:28:59) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:30:19) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 5ms (View: 2, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:30:37) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.4ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:31:03) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 7ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:31:11) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.4ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 7ms (View: 4, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:32:50) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:32:54) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 7ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:34:02) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.4ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:34:05) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStatus Load (0.3ms)[0m   [0mSELECT * FROM `statuses` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mStatus Destroy (0.3ms)[0m   [0;1mDELETE FROM `statuses` WHERE `id` = 1[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Destroy (0.2ms)[0m   [0mDELETE FROM `statuses` WHERE `id` = 2[0m
+  [4;36;1mSQL (36.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Destroy (0.3ms)[0m   [0;1mDELETE FROM `statuses` WHERE `id` = 3[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Destroy (0.2ms)[0m   [0mDELETE FROM `statuses` WHERE `id` = 4[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Destroy (0.1ms)[0m   [0;1mDELETE FROM `statuses` WHERE `id` = 5[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Destroy (0.2ms)[0m   [0mDELETE FROM `statuses` WHERE `id` = 6[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Destroy (0.2ms)[0m   [0;1mDELETE FROM `statuses` WHERE `id` = 7[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Destroy (0.2ms)[0m   [0mDELETE FROM `statuses` WHERE `id` = 8[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Destroy (0.2ms)[0m   [0;1mDELETE FROM `statuses` WHERE `id` = 9[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:34:27) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 8ms (View: 5, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:34:34) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:38:17) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_added"=>"0", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:40:32) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.4ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+facebook.users.getInfo (0) Facebooker::Session::InvalidAPIKey: Invalid API key: uids = 1111111, fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:12) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 5ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:12) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:22) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:22) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.2ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.6ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.5ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:51) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:41:51) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:03) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:03) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:13) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:13) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:35) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:35) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:42:56) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.4ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+facebook.users.getInfo (0) SignalException: SIGQUIT: uids = 1111111, fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mStatus Create (1.3ms)[0m   [0;1mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:43:11) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.2ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 2, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:43:25) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.4ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+facebook.users.getInfo (0) Interrupt: : uids = 1111111, fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `statuses`[0m
+  [4;36;1mStatus Create (0.3ms)[0m   [0;1mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:03) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;35;1mStatus Load (0.4ms)[0m   [0mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 2, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;36;1mSQL (12.8ms)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:06) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 6ms (View: 3, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:06) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 3, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (1.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:13) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+facebook.users.getInfo (0) Interrupt: : uids = 1111111, fields = status,political,pic_small,name,quotes,is_app_user,tv,profile_update_time,meeting_sex,hs_info,timezone,relationship_status,hometown_location,about_me,wall_count,significant_other_id,pic_big,music,uid,work_history,sex,religion,notes_count,activities,pic_square,movies,has_added_app,education_history,birthday,first_name,meeting_for,last_name,interests,current_location,pic,books,affiliations
+  [4;35;1mSQL (76.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:15) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.2ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 4ms (View: 3, DB: 77) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.3ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:37) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 5ms (View: 2, DB: 4) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (1.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 01:44:37) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 3ms (View: 2, DB: 2) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.8ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStatus Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `statuses`[0m
+  [4;35;1mStatus Create (0.2ms)[0m   [0mINSERT INTO `statuses` (`message`, `facebook_id`) VALUES('HEY', 1111111)[0m
+
+
+Processing StatusController#index (for 0.0.0.0 at 2009-01-06 13:06:56) [GET]
+  Parameters: {"fb_sig_time"=>"1186588275.5988", "fb_sig"=>"7371a6400329b229f800a5ecafe03b0a", "fb_sig_session_key"=>"c452b5d5d60cbd0a0da82021-744961110", "fb_sig_expires"=>"0", "fb_sig_added"=>"0", "fb_sig_friends"=>"873695441", "fb_sig_profile_update_time"=>"1180712453", "fb_sig_user"=>"744961110"}
+  [4;36;1mStatus Load (0.3ms)[0m   [0;1mSELECT * FROM `statuses` WHERE (`statuses`.`facebook_id` = 1111111) [0m
+Rendering status/index
+Completed in 5ms (View: 3, DB: 3) | 200 OK [http://test.host/status?fb_sig=7371a6400329b229f800a5ecafe03b0a&fb_sig_added=0&fb_sig_expires=0&fb_sig_friends=873695441&fb_sig_profile_update_time=1180712453&fb_sig_session_key=c452b5d5d60cbd0a0da82021-744961110&fb_sig_time=1186588275.5988&fb_sig_user=744961110]
+  [4;35;1mSQL (0.9ms)[0m   [0mROLLBACK[0m
