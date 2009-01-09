@@ -3,7 +3,6 @@
     <%= image_tag @facebook_user.pic_square, :align => 'left' %>
     <b><%= @facebook_user.name %></b>
     <br/>
-    <%= link_to "allow to update my status?", { :host => "www.facebook.com", :action => "authorize.php", :api_key => "95c28d60bb6f9ab45494cb75910f328b", :v => "1.0", :ext_perm => "status_update" }, :style => "font-size:11px" %>
   </div>
 <div style='float:right'>
   <h1>What are you doing?</h1>
