@@ -6,8 +6,8 @@
   </div>
 <div style='float:right'>
   <h1>What are you doing?</h1>
-  <% form_for @status, {:controller => "status", :action => :create} do |f| %>
-    <%= text_area @status, :message, :cols => 40, :rows => 2 %> 
+  <% form_for :status, @status, {:controller => "status", :action => :create} do |f| %>
+    <%= text_area :status, :message, :cols => 40, :rows => 2 %> 
     <br/><%= f.submit "update", :style => "margin-left:260px; margin-top:10px;" %>
   <% end %>
   <% @statuses.each do |status| %>
