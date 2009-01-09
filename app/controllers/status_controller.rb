@@ -13,11 +13,11 @@ class StatusController < ApplicationController
 	  user = session[:facebook_session].user
 	  begin
 	    user.set_status params[:status][:message]
+	    @user = User.find user.id
+  	  @user.statuses.create! :message => params[:status][:message]
+  	  redirect_to '/'
     rescue Facebooker::Session::ExtendedPermissionRequired => e
       redirect_to "http://www.facebook.com/authorize.php?api_key=#{ENV['FACEBOOK_API_KEY']}&ext_perm=status_update&v=1.0"
     end
-	  @user = User.find user.id
-	  @user.statuses.create! :message => params[:status][:message]
-	  redirect_to '/'
   end
 end
