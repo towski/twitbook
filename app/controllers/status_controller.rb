@@ -7,7 +7,7 @@ class StatusController < ApplicationController
 		@user.save if @user.new_record?
     Delayed::Job.enqueue Job::FetchStatuses.new(@user.id)
 		@statuses = @user.statuses + Status.all(:conditions => {:user_id => @facebook_user.friends.map(&:id)})
-		@status = Status.new(params[:status])
+		@status = Status.new(params[:status] || {:message => "is "})
 	end
 	
 	def create
