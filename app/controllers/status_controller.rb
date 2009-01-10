@@ -11,6 +11,7 @@ class StatusController < ApplicationController
       @statuses.sort_by(&:created_at)
       @statuses.reverse!
       @status = Status.new(params[:status])
+      @statuses = @user.statuses + Status.all(:conditions => {:user_id => @facebook_user.friends.map(&:id)})
     else
       redirect_to '/'
     end
