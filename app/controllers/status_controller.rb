@@ -1,13 +1,19 @@
 class StatusController < ApplicationController
   ensure_authenticated_to_facebook
+  before_filter :check_session
 
 	def index
-		@facebook_user = session[:facebook_session].user
-		@user = User.find_or_initialize_by_id @facebook_user.id
-		@user.save if @user.new_record?
-    Delayed::Job.enqueue Job::FetchStatuses.new(@user.id)
-		@statuses = @user.statuses + Status.all(:conditions => {:user_id => @facebook_user.friends.map(&:id)})
-		@status = Status.new(params[:status])
+    if session[:facebook_session]
+      @facebook_user = session[:facebook_session].user
+      @user = User.find_or_initialize_by_id @facebook_user.id
+      @user.save if @user.new_record?
+      @statuses = @user.statuses + Status.all(:conditions => {:user_id => @facebook_user.friends.map(&:id)})
+      @statuses.sort_by(&:created_at)
+      @statuses.reverse!
+      @status = Status.new(params[:status])
+    else
+      redirect_to '/'
+    end
 	end
 	
 	def create
@@ -24,4 +30,13 @@ class StatusController < ApplicationController
         :next_cancel => root_url(:status => params[:status]))
     end
   end
+
+  protected
+    def check_session
+      begin
+        session[:facebook_session].user.name
+      rescue Facebooker::Session::SessionExpired
+        session[:facebook_session] = nil
+      end
+    end
 end
