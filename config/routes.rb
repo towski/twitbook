@@ -5,5 +5,8 @@ ActionController::Routing::Routes.draw do |map|
 		g.authorize     'authorize.php'	, :action => 'authorize.php'												
   end
   
+  map.with_options :controller => 'users' do |g|
+    g.index         'users/:id',                           :action => 'show',      :conditions => { :method => :get }
+  end  
   map.root :controller => 'status', :action => 'index'
 end

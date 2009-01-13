@@ -1,0 +1,13 @@
+<div style='margin:auto; width:350px'> 
+  <div style='float:right; margin-top:50px; margin-left: 30px;'>
+    <b><%= params[:user] %></b>
+    <br/>
+  </div>
+<div style='float:right'>
+  <% @statuses.each do |user, status, date| %>
+    <div style='border-top:1px dashed #aaa; padding:15px; height: 90px; width: 290px'><%= user %>:<%= status %> <%= time_ago_in_words date %></div>
+  <% end %>
+  <div style='border-top:1px dashed #aaa; padding:15px; height: 110px; width: 290px'></div>
+</div>
+
+</div>
