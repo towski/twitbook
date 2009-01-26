@@ -4,3 +4,4 @@ class UsersController < ApplicationController
 	  @statuses = @user.friends_statuses
 	end
 end
+ d

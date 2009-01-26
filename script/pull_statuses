@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 ENV['RAILS_ENV'] ||= "production"
 require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
-User.all do |user|
+FacebookUser.all do |user|
+  puts "processing user #{user.id}" 
 	Delayed::Job.enqueue Job::FetchStatuses.new(user.id)
 end
