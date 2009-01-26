@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090115015128) do
+ActiveRecord::Schema.define(:version => 20090126000938) do
 
   create_table "delayed_jobs", :force => true do |t|
     t.integer  "priority",   :default => 0
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(:version => 20090115015128) do
 
   create_table "facebook_statuses", :force => true do |t|
     t.text     "message"
-    t.integer  "user_id"
+    t.integer  "facebook_user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

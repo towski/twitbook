@@ -7,10 +7,10 @@ class StatusController < ApplicationController
       @facebook_user = session[:facebook_session].user
       @user = FacebookUser.find_or_initialize_by_id @facebook_user.id
       @user.save if @user.new_record?
-      @statuses = @user.statuses + FacebookStatus.all(:conditions => {:user_id => @facebook_user.friends.map(&:id)})
+      @statuses = @user.statuses + FacebookStatus.all(:conditions => {:facebook_user_id => @facebook_user.friends.map(&:id)})
       @statuses = @statuses.sort_by(&:created_at)
       @statuses.reverse!
-      @status = Facebooktatus.new(params[:status])
+      @status = FacebookStatus.new(params[:status])
     else
       redirect_to '/'
     end
