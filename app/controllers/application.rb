@@ -2,7 +2,6 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  PASSWORD ="s9m2b3"
   helper :all # include all helpers, all the time
 
   # See ActionController::RequestForgeryProtection for details

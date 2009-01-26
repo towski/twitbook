@@ -1,5 +1,5 @@
-class User < ActiveRecord::Base
-  has_many :statuses
+class FacebookUser < ActiveRecord::Base
+  has_many :statuses, :class_name => "FacebookStatus"
   
   def fetch_friends_replies
     raise "URL not specified" unless url
