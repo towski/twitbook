@@ -30,6 +30,16 @@ class StatusController < ApplicationController
         :next_cancel => root_url(:status => params[:status]))
     end
   end
+  
+  def get_friend_statuses
+    session[:facebook_session].friends.each do |friend|
+      friend = FacebookUser.find_or_initialize friend.id
+      friend.save if friend.new_record?
+      session[:facebook_session].fql_query("select uid, status_id, time, message from status where uid = #{friend.id}").each do |status|
+        friend.statuses.create status
+      end
+    end
+  end
 
   protected
     def check_session
